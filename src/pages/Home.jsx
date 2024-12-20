@@ -103,7 +103,7 @@ function Home() {
         (async () => {
             const date = moment(new Date()).subtract(14, "day").format("YYYYMMDD");
             try {
-                const res = await request.get("https://api.koreafilm.or.kr/openapi-data2/wisenut/search_api/search_json2.jsp", {
+                const res = await request.get("", {
                     params: {
                         ...commonParams,
                         releaseDts: date,
