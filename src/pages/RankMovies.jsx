@@ -84,7 +84,7 @@ function RankMovies() {
         const date = moment(new Date()).subtract(1, "day").format("YYYYMMDD");
 
         try {
-            const res = await requestForRank.get(``, {
+            const res = await request.get(`https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json`, {
                 params: {
                     key: VITE_KOFIC_KEY,
                     targetDt: date,
