@@ -43,6 +43,9 @@ const router = createBrowserRouter([
                 element: <FindCinema/>
             }
         ]
+    },
+    {
+    basename:"https://kimtaerin66-github-io1.vercel.app"
     }
 ]);
 
