@@ -22,7 +22,7 @@ const router = createBrowserRouter([
                 element: <Home/>
             },
             {
-                path: "login",
+                path: "/login",
                 element: <Login/>,
                 errorElement: "",
             },
@@ -43,7 +43,9 @@ const router = createBrowserRouter([
                 element: <FindCinema/>
             }
         ]
-    },
+    },{
+    basename:"https://kimtaerin66-github-io1.vercel.app"
+    }
 ]);
 
 export default Router;
