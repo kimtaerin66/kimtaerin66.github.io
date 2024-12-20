@@ -31,20 +31,20 @@ const router = createBrowserRouter([
                 element: <Login/>
             },
             {
-                path: "search/:query",
+                path: "/search/:query",
                 element: <SearchedMovies/>
             },
             {
-                path: "rank",
+                path: "/rank",
                 element: <RankMovies/>
             },
             {
-                path: "findCinema",
+                path: "/findCinema",
                 element: <FindCinema/>
             }
         ]
     },{
-    basename:"https://kimtaerin66-github-io1.vercel.app"
+    basename:"/kimtaerin66.github.io"
     }
 ]);
 
