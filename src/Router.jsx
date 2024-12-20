@@ -8,7 +8,7 @@ import FindCinema from "./pages/FindCinema.jsx";
 
 //createBrowserRouter 를 사용하면 기본 라우터보다 중첩라우팅에 편리하다.
 const Router = () => {
-    return <RouterProvider router={router} basename="/https://kimtaerin66-github-io1.vercel.app"/>;
+    return <RouterProvider router={router} basename="/" />;
 };
 
 const router = createBrowserRouter([
