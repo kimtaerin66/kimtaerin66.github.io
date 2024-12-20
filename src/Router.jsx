@@ -43,8 +43,6 @@ const router = createBrowserRouter([
                 element: <FindCinema/>
             }
         ]
-    },{
-    basename:"/kimtaerin66.github.io"
     }
 ]);
 
