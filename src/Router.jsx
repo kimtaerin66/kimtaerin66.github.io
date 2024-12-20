@@ -22,7 +22,7 @@ const router = createBrowserRouter([
                 element: <Home/>
             },
             {
-                path: "/login",
+                path: "login",
                 element: <Login/>,
                 errorElement: "",
             },
@@ -31,15 +31,15 @@ const router = createBrowserRouter([
                 element: <Login/>
             },
             {
-                path: "/search/:query",
+                path: "search/:query",
                 element: <SearchedMovies/>
             },
             {
-                path: "/rank",
+                path: "rank",
                 element: <RankMovies/>
             },
             {
-                path: "/findCinema",
+                path: "findCinema",
                 element: <FindCinema/>
             }
         ]
